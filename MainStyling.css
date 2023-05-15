@@ -1,0 +1,207 @@
+.stubborne
+{
+    margin-left: 40%;
+}
+
+.Button 
+{
+    background:    #fcfa8f;
+    border:        3px solid #000000;
+    border-radius: 11px;
+    padding:       20px 45px;
+    color:         #000000;
+    display:       inline-block;
+    font:          normal bold 30px/1 "Open Sans", sans-serif;
+    text-align:    center;
+    text-shadow:   2px 2px #ffffff;
+    margin: 10px;
+  
+    
+    
+}
+
+.Border
+{
+    border: 3px solid black;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#BG
+{
+    background-image: url(../Media/Images/Yellow3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header, footer 
+{ 
+     background-color: rgba(247, 243, 174, 0.764)
+}
+
+.Button:hover
+{
+    box-shadow: 0 0 14px 0 #cdd354 inset, 0 0 20px 5px #f2fa61;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+
+
+.footer-links ul li a
+{
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    
+}
+
+.footer-links ul li a:hover
+{
+    opacity: 0.5;
+}
+
+.footer-links a:hover
+{
+    opacity: 0.5;
+}
+
+footer img
+{
+    width: 20%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+.WelcomeLeft 
+{
+width: 33.33%;
+}
+
+.Welcome 
+
+{
+    width: 90%;
+    height: auto;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    margin: 5px;
+    
+}
+
+#Btn
+{
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 30px;
+    z-index: 99;
+}
+
+#Btn:hover
+{
+    opacity: 0.5;
+}
+
+label
+{
+    font-size: 18pt;
+    color: #000000;
+}
+
+input, textarea
+{
+    width: 100%;
+    border: 2px solid #000000;
+}
+
+#SB
+{
+    width: 25%;
+    border: 2px solid #000000;
+}
+
+.AboutLeft
+{
+width: 33.33%;
+}
+
+.About 
+
+{
+    width: 90%;
+    height: auto;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    margin: 5px;
+    
+}
+
+.About2
+{
+    width: 90%;
+    height: auto;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.AboutRight
+{
+    width: 33.33%;
+}
+
+.About3
+{
+    width: 90%;
+    height: auto;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.GalImage
+{
+    max-width: 800px;
+    max-height: 600px;
+    width: 100%;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    margin: 5px;
+    
+}
+
+.social
+{
+    border: 5px solid #000000;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.CarImage
+{
+    
+    width: 60%;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    margin: 5px;
+    margin-left: 20%;
+}
+
+
+
+.FadeAnimation
+{
+    animation-name: Fade;
+    animation-duration: 3s;
+
+    animation-timing-function: ease-in; /* How it handles the animation*/
+    animation-iteration-count: 1; /* Repeats*/
+    animation-fill-mode: forwards;
+}
+
+@keyframes Fade
+{
+    from{opacity: 0}
+    to{opacity: 1}
+}
